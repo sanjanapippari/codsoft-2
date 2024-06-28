@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karuna Homeo Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body class="overflow-hidden">
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">Karuna Homoeo Clinic <img src="Screenshot (340).png"></div>
+                <ul class="navbar flex items-center">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#section2">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <!-- <li>
+                        <a href="tel:+919440008120">
+                            <button class="btn">Call now</button>
+                        </a>
+                    </li> -->
+
+                </ul>
+            </nav>
+        </header>
+        <section id="hero" class="hero">
+            <div class="hero-content text-center text-white">
+                <h1 class="text-4xl font-bold">Welcome to Karuna Homeo Clinic</h1>
+                <p class="mt-2">Compassionate and personalized homeopathic care.</p>
+                <button class="btn mt-4" id="bookAppointmentBtn">Book an Appointment</button>
+            </div>
+        </section>
+        <div id="appointmentModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Book an Appointment</h2>
+                <form class="appointment-form" action="mailto:drravikumar556@gmail.com" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+        <main class="min-h-screen">
+            <section id="about" class="section1">
+                <div class="flex items-center">
+                    <div class="topleft flex justify-center flex-col px-2">
+                        <img class="logoimg" src="lo1.png">
+                        <h1 class="my-1 cursive-font"> Welcome to our Clinic</h1>
+                        <p>At Karuna Homoeo Clinic, we believe in the power of natural healing. Our mission is to provide compassionate, personalized homeopathic care that addresses the root causes of illness and promotes overall well-being. With a deep commitment to the principles of homeopathy, we offer effective and gentle treatments tailored to each individual's unique needs.</p>
+                    </div>
+                    <div class="topright">
+                        <img src="pills.jpg" height="350" width="600">
+                    </div>
+                </div>
+            </section>
+            <section id="section2" class="section2">
+                <h1 class="text-center my-2">Special Medications</h1>
+                <p>Asthama, Allergy ,Cough ,Respiratory Diseases,Sneezing,Back Pain,Joint Pain,Neck Pain,Knee Pain,Cervical Spondylysis,Sciatica,Kidney Stones,Sinusitis,Nasal Polyps,Migraine,Tonsilities,Mouth Ulcer,Polyps,Hair Fall,Dandruff,Premature Greying,Small Eruption on Scalp,Psoriasis,Vitiligo,Utricaria & Skin Diseases,Eczema,Dermatitis,Acne,</p>
+                <h2 class="h2fo">Our clinic</h2>
+            </section>
+            <section class="image-section">
+                <div class="image-container">
+                    <img src="fr.jpg" alt="Image 1 description" width="280" height="150">
+                    <img src="fr0.JPG" alt="Image 2 description" width="280" height="150">
+                    <img src="fr2.jpg" alt="Image 3 description" width="280" height="150">
+                    <img src="fr3.JPG" alt="Image 4 description" width="280" height="150">
+                </div>
+            </section>
+            <section class="doctor-section">
+                <h2 class="doc">Meet Our Doctor</h2>
+                <div class="doctor-info">
+                    <img src="clinic.JPG" width="400" height="180">
+                    <div class="doctor-details">
+                        <h3>Dr. P.Ravi Kumar</h3>
+                        <h4>BHMS,Pune</h4>
+                        <p>Dr. P. Ravi Kumar is a highly experienced senior physician known for his compassionate approach to patient care. Patients appreciate his kindness and for taking the time to listen patiently. He prioritizes effective treatment at a reasonable cost, ensuring your well-being is his top priority.</p>
+                        <ul>
+                            <li>His calm demeanor and clear explanations put patients at ease, fostering a trusting doctor-patient relationship.</li>
+                            <li>Dr. P.Ravi Kumar stays up-to-date with the latest advancements in medicine, providing the most effective treatments available.</li>
+                            <li>He is highly respected by his colleagues, known for his diagnostic skills and successful treatment outcomes.</li>
+                            <li>Dedicated to continuous learning, Dr.P.Ravi Kumar regularly participates in medical conferences and workshops.</li>
+                            <li>Whether you're seeking preventive care or treatment for a specific condition, Dr. P. Ravi Kumar provides personalized care tailored to your individual needs.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="campaign" class="section-campaign">
+                <h2 class="text-center my-2">Osteoporis checkup camp(Free Bone mineral Density camp)</h2>
+                <div class="campaign-photos">
+                    <!-- Placeholder images for demonstration -->
+                    <img src="c1.jpg" alt="Campaign Photo 1" width="200" height="100">
+                    <img src="c2.jpg" alt="Campaign Photo 2" width="200" height="100">
+                    <img src="c3.jpg" alt="Campaign Photo 3" width="200" height="100">
+                    <img src="c4.jpg" alt="Campaign Photo 4" width="200" height="100">
+                    <!-- <img src="c5.jpg" alt="Campaign Photo 4" width="200" height="100"> -->
+
+                </div>
+            </section>
+            
+        </main>
+        <footer id="contact">
+            <div class="footer-heading">
+                <h3>Contact Us</h3>
+            </div>
+            <div class="contact-info">
+                <p>Karuna Homoeo Clinic</p>
+                <p>C.V.R.N Road,Karimnagar</p>
+                <a href="https://www.google.com/maps/dir/17.4358528,78.4400384/Karuna+homeo+clinic,+CVRN+Road,+Jyothinagar,+Karimnagar,+Telangana/@17.9440663,78.1498436,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bccd923e4c92255:0xe4d23742466252c!2m2!1d79.1273656!2d18.4399809?entry=ttu">
+                    Get Directions
+                </a><br>
+                <p><a href="tel:9440008120">9440008120</a></p>
+                <p><a href="mailto:drravikumar556@gmail.com">drravikumar556@gmail.com</a></p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
